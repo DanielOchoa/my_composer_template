@@ -1270,7 +1270,7 @@ after_bundler do
     create_file 'app/assets/stylesheets/bootstrap_and_overrides.css.scss', <<-RUBY
 @import "bootstrap";
 body { padding-top: 60px; }
-@import "bootstrap-responsive";
+# @import "bootstrap-responsive";
 RUBY
   elsif prefer :frontend, 'foundation'
     insert_into_file 'app/assets/stylesheets/application.css.scss', " *= require foundation_and_overrides\n", :after => "require_self\n"
