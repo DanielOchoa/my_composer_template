@@ -1,4 +1,4 @@
-my_composer_template
+My composer template for a Rails app
 ====================
 
 My default setup for a rails 4 app with composer.
