@@ -11,6 +11,10 @@ Description
 
 This is a pristine installation with only the user model, no views and no controllers. Installs bootstrap 3.
 
+database.yml
+---
+The created database.yml file does not have the username and password fields. It also adds `host: localhost`. This is the setup that works for me to create a database.
+
 Extra gems:
 `@gems = ["high_voltage", "kaminari", "meta_request"]`
 
