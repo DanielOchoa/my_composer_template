@@ -32,4 +32,7 @@ preferences:
 *   **starter_app:** none
 *   **local_env_file:** true
 
-  
+Todo:
+---
+
+*   Change the application template recipe to use bootstrap 3
