@@ -972,7 +972,7 @@ add_gem 'machinist', :group => :test if prefer :fixtures, 'machinist'
 
 ## Front-end Framework
 # add_gem 'bootstrap-sass', '~> 2.3.2.2' if prefer :bootstrap, 'sass'
-add_gem 'bootstrap-sass' if prefer :bootstrap, 'sass'
+add_gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.git', :branch => '3' if prefer :bootstrap, 'sass'
 # add_gem 'rails_layout', :group => :development if prefer :bootstrap, 'sass'
 if prefer :frontend, 'foundation'
   if rails_4?
