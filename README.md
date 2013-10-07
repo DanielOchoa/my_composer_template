@@ -1,7 +1,7 @@
 My composer template for a Rails app
 ====================================
 
-My default setup for a rails 4 app with composer.
+Custom setup for rails 4 app using composer.
 
 Create a new app from this template with:
 `rails new myapp -m https://raw.github.com/DanyHunter/my_composer_template/master/template.rb`
@@ -9,11 +9,11 @@ Create a new app from this template with:
 Description
 -----------
 
-This is a pristine installation with only the user model, no views and no controllers. Installs bootstrap 3.
+This is a pristine installation with only the user model, no views and no controllers. Defaults to bootstrap 3.
 
 database.yml
 ---
-The created database.yml file does not have the username and password fields. It also adds `host: localhost`. This is the setup that works for me to create a database.
+The database.yml file does not have the username and password fields. It also adds `host: localhost`. This is the setup that works for me to hit the ground running.
 
 Extra gems:
 `@gems = ["high_voltage", "kaminari", "meta_request"]`
